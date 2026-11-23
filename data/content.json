@@ -1,0 +1,302 @@
+{
+  "site": {
+    "name": "Kitchen33 & Bakery",
+    "logoTagline": "Fresh \u00b7 Clean \u00b7 Purposeful",
+    "addressLine1": "13155 Mountain Road",
+    "addressLine2": "Glen Allen, VA 23059",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=13155+Mountain+Road+Glen+Allen+VA+23059",
+    "phone": "(804) 368-8556",
+    "email": "manager@kitchen33.org",
+    "website": "kitchen33.org",
+    "hoursLabel": "Open daily",
+    "hours": "7:00 AM - 9:00 PM",
+    "hoursDetail": "Breakfast 7 AM\u201312 PM \u00b7 Lunch 11 AM\u20139 PM \u00b7 Dinner 4 PM\u20139 PM",
+    "footerTagline": "Fresh food.\nWith purpose.",
+    "footerAbout": "A 501(c)(3) nonprofit restaurant owned and operated by American River Restoration (A.R.R.)",
+    "footerBottomLeft": "Kitchen33 & Bakery \u2022 Glen Allen, Virginia",
+    "footerBottomRight": "Off I-295 between Short Pump and I-95",
+    "donateLabel": "Donate",
+    "donateUrl": "/get-involved#donate",
+    "orderUrl": "https://www.toasttab.com/kitchen33-13151-mountain-rd",
+    "footerLinks": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Menu",
+        "href": "https://www.toasttab.com/kitchen33-13151-mountain-rd"
+      },
+      {
+        "label": "In the News",
+        "href": "https://richmondmagazine.com/restaurants-in-richmond/food-news/kitchen33/"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "social": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/kitchen33org"
+      }
+    ],
+    "seoDescription": "Kitchen33 & Bakery is a plastic-free, 501(c)(3) nonprofit restaurant in Glen Allen, VA, owned and operated by American River Restoration. Slow-smoked meats, breakfast classics and desserts made daily."
+  },
+  "home": {
+    "hero": {
+      "title": "Fresh Food, a Clean Kitchen and Real Purpose for a",
+      "highlight": "Healthier Community",
+      "body": "Kitchen33 is a nonprofit restaurant and bakery in Glen Allen serving slow-smoked meats, breakfast classics and desserts made daily, with no Styrofoam or single-use plastics and leftover food going to local families.",
+      "image": "/images/home-hero.jpg",
+      "imageAlt": "Smiling young cook in a Kitchen33 apron preparing fresh vegetables",
+      "primaryCta": {
+        "label": "What We Do",
+        "href": "/programs"
+      },
+      "secondaryCta": {
+        "label": "How to Help",
+        "href": "/get-involved"
+      }
+    },
+    "features": [
+      {
+        "icon": "apple",
+        "title": "Made From Scratch",
+        "text": "Smoked meats, sides and desserts made daily without preservatives"
+      },
+      {
+        "icon": "leaf",
+        "title": "Plastic-Free",
+        "text": "No Styrofoam or single-use plastics, with onsite composting"
+      },
+      {
+        "icon": "people",
+        "title": "Community Giving",
+        "text": "Leftover food donated to local families and individuals"
+      },
+      {
+        "icon": "heart",
+        "title": "Lasting Impact",
+        "text": "Supporting cleaner rivers through American River Restoration"
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "title": "About",
+      "highlight": "Kitchen33",
+      "body": "A nonprofit restaurant with a simple idea: serve clean, fresh food and show that a restaurant can be environmentally responsible.",
+      "image": "/images/about-hero.jpg",
+      "imageAlt": "A cook chopping fresh peppers on a cutting board"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "body": "Kitchen33 is a 501(c)(3) nonprofit restaurant in Glen Allen, VA, owned and operated by American River Restoration. We serve clean, fresh food from a very clean kitchen: slow-smoked meats, desserts and sides made daily without preservatives, with water and air filtered to one micron or less.",
+      "image": "/images/about-building.jpg",
+      "imageAlt": "Illustrative storefront concept",
+      "cta": {
+        "label": "Our Story",
+        "href": "#story"
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraphs": [
+        {
+          "text": "American River Restoration (A.R.R.) was formed in 2017 to clean up inland waterways, raise awareness about plastic pollution, prevent littering and promote environmental education."
+        },
+        {
+          "text": "In 2022, A.R.R. opened Kitchen33 on Mountain Road in Glen Allen to prove that a restaurant can be environmentally responsible and still succeed. We serve food in sugar cane and bamboo containers instead of Styrofoam, compost paper waste onsite for our garden, and donate leftover food to local families and individuals."
+        },
+        {
+          "text": "That same year, Kitchen33 won the Pie Insurance Upper Crust grand prize of $15,000, earmarked for an outdoor pavilion and river cleanup work."
+        }
+      ]
+    },
+    "facts": [
+      {
+        "value": "2017",
+        "label": "A.R.R. founded"
+      },
+      {
+        "value": "2022",
+        "label": "Kitchen33 opens"
+      },
+      {
+        "value": "$15K",
+        "label": "Pie Upper Crust prize"
+      },
+      {
+        "value": "0",
+        "label": "Styrofoam or single-use plastics"
+      }
+    ]
+  },
+  "programs": {
+    "hero": {
+      "title": "What We",
+      "highlight": "Do",
+      "body": "Scratch-made food, a plastic-free kitchen and giving back to the community we serve.",
+      "image": "/images/programs-hero.jpg",
+      "imageAlt": "A bowl of fresh grain salad with roasted vegetables"
+    },
+    "cards": [
+      {
+        "icon": "utensils",
+        "color": "orange",
+        "image": "/images/program-1.jpg",
+        "imageAlt": "Trays of freshly prepared food",
+        "title": "Scratch Kitchen & Bakery",
+        "text": "Slow-smoked brisket and pork, house pastrami and corned beef, breakfast classics and desserts made daily.",
+        "link": {
+          "label": "Order Online",
+          "href": "https://www.toasttab.com/kitchen33-13151-mountain-rd"
+        }
+      },
+      {
+        "icon": "recycle",
+        "color": "green",
+        "image": "/images/program-2.jpg",
+        "imageAlt": "Cooks preparing fresh vegetables together",
+        "title": "Plastic-Free Dining",
+        "text": "Sugar cane and bamboo containers instead of Styrofoam, recycling, and paper waste composted onsite for our garden.",
+        "link": {
+          "label": "Learn More",
+          "href": "/about#story"
+        }
+      },
+      {
+        "icon": "hands",
+        "color": "teal",
+        "image": "/images/program-3.jpg",
+        "imageAlt": "Kitchen team preparing meals",
+        "title": "Feeding Neighbors",
+        "text": "Food we don't sell doesn't go to waste: leftovers are donated to local families and individuals.",
+        "link": {
+          "label": "Get Involved",
+          "href": "/get-involved"
+        }
+      }
+    ]
+  },
+  "getInvolved": {
+    "hero": {
+      "title": "Get",
+      "highlight": "Involved",
+      "body": "There are many ways to support Kitchen33 and American River Restoration. Whether you give, volunteer or partner with us, you can make a real difference in our community.",
+      "image": "/images/involved-hero.jpg",
+      "imageAlt": "Smiling Kitchen33 team member in the kitchen"
+    },
+    "cards": [
+      {
+        "id": "volunteer",
+        "icon": "hands",
+        "color": "green",
+        "title": "Volunteer",
+        "text": "Join an American River Restoration river cleanup and help keep our local waterways clean.",
+        "link": {
+          "label": "Volunteer Today",
+          "href": "/contact"
+        }
+      },
+      {
+        "id": "donate",
+        "icon": "heart",
+        "color": "orange",
+        "title": "Donate",
+        "text": "Kitchen33 is a 501(c)(3) nonprofit. Your gift supports our zero-waste kitchen, food donations and river cleanups.",
+        "link": {
+          "label": "Make a Donation",
+          "href": "/contact"
+        }
+      },
+      {
+        "id": "partner",
+        "icon": "handshake",
+        "color": "teal",
+        "title": "Partner With Us",
+        "text": "Collaborate with Kitchen33 and A.R.R. on events, catering and cleanups for a healthier, stronger community.",
+        "link": {
+          "label": "Become a Partner",
+          "href": "/contact"
+        }
+      }
+    ]
+  },
+  "events": {
+    "hero": {
+      "title": "Events",
+      "highlight": "",
+      "body": "Join us for community meals, gatherings and river cleanups with Kitchen33 and American River Restoration.",
+      "image": "/images/events-hero.jpg",
+      "imageAlt": "Calendar with a Kitchen33 event circled"
+    },
+    "categories": [
+      {
+        "name": "Community Meals"
+      },
+      {
+        "name": "Cleanups"
+      },
+      {
+        "name": "Fundraisers"
+      }
+    ],
+    "items": [
+      {
+        "published": false,
+        "title": "SAMPLE \u2013 Community Meal",
+        "date": "2026-12-12",
+        "startTime": "12:00",
+        "endTime": "14:00",
+        "location": "Kitchen33",
+        "category": "Community Meals",
+        "description": "Draft example. Replace with real event details before publishing.",
+        "image": "/images/event-1.jpg"
+      },
+      {
+        "published": false,
+        "title": "SAMPLE \u2013 River Cleanup with A.R.R.",
+        "date": "2026-12-19",
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "location": "Glen Allen, VA",
+        "category": "Cleanups",
+        "description": "Draft example. Replace with real event details before publishing.",
+        "image": "/images/event-2.jpg"
+      },
+      {
+        "published": false,
+        "title": "SAMPLE \u2013 Year-End Gathering",
+        "date": "2026-12-30",
+        "startTime": "16:00",
+        "endTime": "19:00",
+        "location": "Kitchen33",
+        "category": "Fundraisers",
+        "description": "Draft example. Replace with real event details before publishing.",
+        "image": "/images/event-3.jpg"
+      }
+    ],
+    "emptyTitle": "New events coming soon",
+    "emptyText": "We don't have any events scheduled right now. Call us at (804) 368-8556 or stop by to hear what's next."
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact",
+      "highlight": "Us",
+      "body": "We'd love to hear from you. Reach out with questions, catering and partnership ideas, or general inquiries.",
+      "image": "/images/contact-hero.jpg",
+      "imageAlt": "Kitchen33 dining room with a colorful vegetable mural"
+    },
+    "visitTitle": "Visit Us",
+    "callTitle": "Call Us",
+    "emailTitle": "Email Us",
+    "formSuccess": "Thanks! Your message has been sent. We'll get back to you soon."
+  }
+}
