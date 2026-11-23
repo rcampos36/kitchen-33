@@ -39,6 +39,7 @@ const hero = (extra: Field[] = []): Field => ({
     { key: "body", label: "Intro text", type: "textarea" },
     { key: "image", label: "Background photo", type: "image" },
     { key: "imageAlt", label: "Photo description (for screen readers)", type: "text" },
+    { key: "imagePosition", label: "Photo focus (part kept visible when cropped)", type: "select", options: ["center", "top", "bottom"] },
     ...extra,
   ],
 });

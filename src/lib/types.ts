@@ -20,6 +20,8 @@ export type Hero = {
   body: string;
   image: string;
   imageAlt: string;
+  /** Which part of the photo to keep visible when it is cropped. */
+  imagePosition?: "top" | "center" | "bottom";
 };
 
 export type SiteSettings = {
