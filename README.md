@@ -37,9 +37,10 @@ Business details were checked against kitchen33.org, Richmond Magazine (Nov 2022
 Insurance's Kitchen33 profile. The mockups' AI-generated copy (Richmond address, 788-0033
 phone, info@ email, workforce-training program, specific event dates) was **not** used.
 
-- Hero photos (`public/images/hero-*.jpg`) are the higher-resolution images supplied for
-  each page. Card, event and storefront photos are still cropped from the AI-generated
-  concept mockups and are placeholders (the storefront is not the real building).
+- Hero photos (`public/images/hero-*.jpg`) and the About-page storefront
+  (`about-storefront.jpg`) are the higher-resolution images supplied. The storefront is
+  still an AI concept, not the real building. Program-card and event photos are still
+  low-resolution crops from the concept mockups and are placeholders.
 - Each hero has a "Photo focus" setting (top/center/bottom) in the dashboard to control cropping.
 - Editing `data/content.json` by hand? Restart the server afterwards; only dashboard saves
   refresh the content cache automatically.

@@ -1,5 +1,5 @@
 import type { SiteSettings } from "@/lib/types";
-import { FooterLogo } from "./Logo";
+import { Logo } from "./Logo";
 import { SmartLink } from "./SmartLink";
 
 export function Footer({ site }: { site: SiteSettings }) {
@@ -15,8 +15,7 @@ export function Footer({ site }: { site: SiteSettings }) {
 
         <div className="relative mx-auto grid max-w-7xl gap-10 px-6 pt-14 pb-10 sm:grid-cols-2 lg:grid-cols-[1.25fr_0.8fr_1.2fr_1fr] lg:gap-0 lg:px-8">
           <div className="lg:pr-8">
-            <FooterLogo />
-            <p className="mt-2 text-sm font-semibold uppercase tracking-[0.3em] text-white/90">Kitchen &amp; Bakery</p>
+            <Logo tagline={site.logoTagline} tone="light" />
             <div className="mt-5 h-1.5 w-28 rounded-full bg-brand-orange" />
             <p className="mt-5 max-w-xs text-[0.95rem] leading-relaxed text-white/85">{site.footerAbout}</p>
           </div>
