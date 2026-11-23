@@ -153,8 +153,8 @@
       {
         "icon": "utensils",
         "color": "orange",
-        "image": "/images/program-1.jpg",
-        "imageAlt": "Trays of freshly prepared food",
+        "image": "/images/program-kitchen.jpg",
+        "imageAlt": "Kitchen33 team serving freshly made dishes from steam trays",
         "title": "Scratch Kitchen & Bakery",
         "text": "Slow-smoked brisket and pork, house pastrami and corned beef, breakfast classics and desserts made daily.",
         "link": {
@@ -165,8 +165,8 @@
       {
         "icon": "recycle",
         "color": "green",
-        "image": "/images/program-2.jpg",
-        "imageAlt": "Cooks preparing fresh vegetables together",
+        "image": "/images/program-plastic-free.jpg",
+        "imageAlt": "A woman and a boy in Kitchen33 aprons chopping fresh vegetables",
         "title": "Plastic-Free Dining",
         "text": "Sugar cane and bamboo containers instead of Styrofoam, recycling, and paper waste composted onsite for our garden.",
         "link": {
@@ -177,8 +177,8 @@
       {
         "icon": "hands",
         "color": "teal",
-        "image": "/images/program-3.jpg",
-        "imageAlt": "Kitchen team preparing meals",
+        "image": "/images/program-neighbors.jpg",
+        "imageAlt": "Kitchen33 cook portioning prepared meals",
         "title": "Feeding Neighbors",
         "text": "Food we don't sell doesn't go to waste: leftovers are donated to local families and individuals.",
         "link": {
