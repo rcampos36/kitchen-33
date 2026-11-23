@@ -16,8 +16,15 @@ export default async function AboutPage() {
 
       <section className="mx-auto grid max-w-7xl items-center gap-10 px-6 py-14 sm:py-20 md:grid-cols-2 lg:gap-16 lg:px-8">
         {mission.image && (
-          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-xl">
-            <Image src={mission.image} alt={mission.imageAlt} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
+          <div className="relative aspect-[7/5] overflow-hidden rounded-2xl shadow-xl ring-1 ring-black/5">
+            <Image
+              src={mission.image}
+              alt={mission.imageAlt}
+              fill
+              quality={90}
+              sizes="(min-width: 1280px) 600px, (min-width: 768px) 50vw, 100vw"
+              className="object-cover"
+            />
           </div>
         )}
         <div>

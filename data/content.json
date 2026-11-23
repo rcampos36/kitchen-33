@@ -100,8 +100,8 @@
     "mission": {
       "title": "Our Mission",
       "body": "Kitchen33 is a 501(c)(3) nonprofit restaurant in Glen Allen, VA, owned and operated by American River Restoration. We serve clean, fresh food from a very clean kitchen: slow-smoked meats, desserts and sides made daily without preservatives, with water and air filtered to one micron or less.",
-      "image": "/images/about-building.jpg",
-      "imageAlt": "Illustrative storefront concept",
+      "image": "/images/about-storefront.jpg",
+      "imageAlt": "Illustrative storefront concept with a colorful mural and Kitchen33 sign",
       "cta": {
         "label": "Our Story",
         "href": "#story"
