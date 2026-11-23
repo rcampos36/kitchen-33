@@ -53,7 +53,7 @@
       "title": "Fresh Food, a Clean Kitchen and Real Purpose for a",
       "highlight": "Healthier Community",
       "body": "Kitchen33 is a nonprofit restaurant and bakery in Glen Allen serving slow-smoked meats, breakfast classics and desserts made daily, with no Styrofoam or single-use plastics and leftover food going to local families.",
-      "image": "/images/home-hero.jpg",
+      "image": "/images/hero-home.jpg",
       "imageAlt": "Smiling young cook in a Kitchen33 apron preparing fresh vegetables",
       "primaryCta": {
         "label": "What We Do",
@@ -62,7 +62,8 @@
       "secondaryCta": {
         "label": "How to Help",
         "href": "/get-involved"
-      }
+      },
+      "imagePosition": "top"
     },
     "features": [
       {
@@ -92,8 +93,9 @@
       "title": "About",
       "highlight": "Kitchen33",
       "body": "A nonprofit restaurant with a simple idea: serve clean, fresh food and show that a restaurant can be environmentally responsible.",
-      "image": "/images/about-hero.jpg",
-      "imageAlt": "A cook chopping fresh peppers on a cutting board"
+      "image": "/images/hero-about.jpg",
+      "imageAlt": "A cook chopping fresh peppers on a cutting board",
+      "imagePosition": "top"
     },
     "mission": {
       "title": "Our Mission",
@@ -143,8 +145,9 @@
       "title": "What We",
       "highlight": "Do",
       "body": "Scratch-made food, a plastic-free kitchen and giving back to the community we serve.",
-      "image": "/images/programs-hero.jpg",
-      "imageAlt": "A bowl of fresh grain salad with roasted vegetables"
+      "image": "/images/hero-programs.jpg",
+      "imageAlt": "A bowl of fresh grain salad with roasted vegetables",
+      "imagePosition": "center"
     },
     "cards": [
       {
@@ -190,8 +193,9 @@
       "title": "Get",
       "highlight": "Involved",
       "body": "There are many ways to support Kitchen33 and American River Restoration. Whether you give, volunteer or partner with us, you can make a real difference in our community.",
-      "image": "/images/involved-hero.jpg",
-      "imageAlt": "Smiling Kitchen33 team member in the kitchen"
+      "image": "/images/hero-involved.jpg",
+      "imageAlt": "Smiling Kitchen33 team member in the kitchen",
+      "imagePosition": "top"
     },
     "cards": [
       {
@@ -234,8 +238,9 @@
       "title": "Events",
       "highlight": "",
       "body": "Join us for community meals, gatherings and river cleanups with Kitchen33 and American River Restoration.",
-      "image": "/images/events-hero.jpg",
-      "imageAlt": "Calendar with a Kitchen33 event circled"
+      "image": "/images/hero-events-calendar.jpg",
+      "imageAlt": "Calendar with a Kitchen33 event circled and pinned",
+      "imagePosition": "bottom"
     },
     "categories": [
       {
@@ -291,8 +296,9 @@
       "title": "Contact",
       "highlight": "Us",
       "body": "We'd love to hear from you. Reach out with questions, catering and partnership ideas, or general inquiries.",
-      "image": "/images/contact-hero.jpg",
-      "imageAlt": "Kitchen33 dining room with a colorful vegetable mural"
+      "image": "/images/hero-contact.jpg",
+      "imageAlt": "Kitchen33 dining room with a colorful vegetable mural",
+      "imagePosition": "center"
     },
     "visitTitle": "Visit Us",
     "callTitle": "Call Us",

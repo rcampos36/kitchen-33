@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Icon } from "@/components/Icon";
 import { SmartLink } from "@/components/SmartLink";
+import { objectPosition } from "@/components/PageHero";
 import { Wave } from "@/components/Wave";
 import { getContent } from "@/lib/content";
 
@@ -13,7 +14,7 @@ export default async function HomePage() {
     <>
       <section className="relative isolate overflow-hidden bg-cream">
         <div className="absolute inset-y-0 right-0 -z-10 hidden w-[55%] md:block">
-          <Image src={hero.image} alt={hero.imageAlt} fill priority sizes="55vw" className="object-cover object-top" />
+          <Image src={hero.image} alt={hero.imageAlt} fill priority sizes="55vw" className={`object-cover ${objectPosition[hero.imagePosition ?? "top"]}`} />
           <div className="absolute inset-0 bg-gradient-to-r from-cream via-cream/20 to-transparent" />
         </div>
         <div className="mx-auto max-w-7xl px-6 pt-12 pb-20 sm:pt-16 md:pb-36 lg:px-8 lg:pt-24 lg:pb-44">
@@ -33,7 +34,7 @@ export default async function HomePage() {
           </div>
         </div>
         <div className="relative aspect-[4/3] w-full md:hidden">
-          <Image src={hero.image} alt={hero.imageAlt} fill sizes="100vw" className="object-cover object-top" />
+          <Image src={hero.image} alt={hero.imageAlt} fill sizes="100vw" className={`object-cover ${objectPosition[hero.imagePosition ?? "top"]}`} />
         </div>
         <Wave />
       </section>

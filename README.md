@@ -37,9 +37,12 @@ Business details were checked against kitchen33.org, Richmond Magazine (Nov 2022
 Insurance's Kitchen33 profile. The mockups' AI-generated copy (Richmond address, 788-0033
 phone, info@ email, workforce-training program, specific event dates) was **not** used.
 
-- Photos in `public/images/` are cropped from the AI-generated concept mockups. They are
-  placeholders (the storefront is not the real building). Replace them with real photos
-  in the dashboard.
+- Hero photos (`public/images/hero-*.jpg`) are the higher-resolution images supplied for
+  each page. Card, event and storefront photos are still cropped from the AI-generated
+  concept mockups and are placeholders (the storefront is not the real building).
+- Each hero has a "Photo focus" setting (top/center/bottom) in the dashboard to control cropping.
+- Editing `data/content.json` by hand? Restart the server afterwards; only dashboard saves
+  refresh the content cache automatically.
 - The three events are unpublished **samples**. Edit and publish real ones from `/admin/events`.
 - Sources disagree on the street number used for online ordering (Toast URL says 13151);
   the site uses 13155 Mountain Road, as on kitchen33.org.

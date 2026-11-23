@@ -2,13 +2,15 @@ import Image from "next/image";
 import type { Hero } from "@/lib/types";
 import { Wave } from "./Wave";
 
+export const objectPosition = { top: "object-top", center: "object-center", bottom: "object-bottom" } as const;
+
 /** Dark-green hero used on inner pages: text on the left, photo fading in on the right. */
 export function PageHero({ hero, highlightColor = "text-brand-yellow", children }: { hero: Hero; highlightColor?: string; children?: React.ReactNode }) {
   return (
     <section className="relative isolate overflow-hidden bg-forest">
       {hero.image && (
         <div className="absolute inset-0 -z-10 md:left-[38%]">
-          <Image src={hero.image} alt={hero.imageAlt} fill priority sizes="(min-width: 768px) 62vw, 100vw" className="object-cover" />
+          <Image src={hero.image} alt={hero.imageAlt} fill priority sizes="(min-width: 768px) 62vw, 100vw" className={`object-cover ${objectPosition[hero.imagePosition ?? "center"]}`} />
           <div className="absolute inset-0 bg-forest/75 md:bg-transparent md:bg-gradient-to-r md:from-forest md:via-forest/40 md:to-transparent" />
         </div>
       )}
